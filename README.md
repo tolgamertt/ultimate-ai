@@ -19,11 +19,13 @@ Ultimate AI is an application to serve customers as a chat bot.
 
 ## Test and Run
 
-Run the main class on an IDE or run the following command to test and run the application;
+Run the following command to test and run the application;
 
 ```console
 cd ultimate-ai && mvn clean install && cd ultimate-ai-app && mvn spring-boot:run
 ```
+
+Or run the main class on an IDE after maven clean install(generated code is not commited.)
 
 ## Access
 
@@ -47,9 +49,9 @@ Or post can be applied directly on;
 
 * For database, I came up with two solutions as an online database or Docker Compose with a local one. I used Mongo Db
   Atlas to be able to connect from anywhere. It was a simpler and lighter solution.
-* For confidence treshold, I thought what matters is how better is the best intent from the second intent,
-  the other intents makes no difference. I observed that when I send "goodbye" as request, AI returns "Thank you" with confidence 1 and "Goodbye" with confidence 0.81.
-  So I defined a configurable fallibility percentage and set it to 20%. 
+* For confidence treshold, I thought what matters is how better is the best intent from the second intent, the other
+  intents makes no difference. I observed that when I send "goodbye" as request, AI returns "Thank you" with confidence
+  1 and "Goodbye" with confidence 0.81. So I defined a configurable fallibility percentage and set it to 20%.
 
 ## What Could Be Done More
 
