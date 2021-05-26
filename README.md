@@ -25,7 +25,7 @@ Run the following command to test and run the application;
 cd ultimate-ai && mvn clean install && cd ultimate-ai-app && mvn spring-boot:run
 ```
 
-Or run the main class on an IDE after maven clean install(generated code is not commited.)
+Or run the main class on an IDE after maven clean install(generated code is not commited).
 
 ## Access
 
