@@ -1,0 +1,5 @@
+# Project exclude paths
+/target/
+/ultimate-ai-api/target/
+.idea/
+*.iml
